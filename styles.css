@@ -41,18 +41,24 @@
     /* Add shadow to create the "card effect" */
     box-shadow: 0 4px 0px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    /* Helps make whole card clickable */
+    position:relative;
 }
 
 .card-churro{
     /* Add shadow to create the "card effect" */
     box-shadow: 0 4px 0px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+     /* Helps make whole card clickable */
+    position:relative;
 }
 
 .card-ziti{
     /* Add shadow to create the "card effect" */
     box-shadow: 0 4px 0px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+     /* Helps make whole card clickable */
+    position:relative;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -85,4 +91,38 @@ Add some padding inside the card container */
 
 ul{
     list-style-type: none;
+}
+
+img {
+    width:100%;
+    height:auto;
+}
+
+/* Make the entire card a link */
+
+.card-chicken a::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.card-churro a::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.card-ziti a::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
 }
