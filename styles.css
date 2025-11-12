@@ -4,6 +4,8 @@
     padding:25px;
     text-align: left;
     color: black;
+    /* Remove bullets from ul */
+    list-style-type: none;
 }
 
 .recipe-links div{
@@ -43,6 +45,7 @@
     transition: 0.3s;
     /* Helps make whole card clickable */
     position:relative;
+    margin: 0px 0px 0px 0px;
 }
 
 .card-churro{
@@ -87,14 +90,9 @@ Add some padding inside the card container */
     padding: 2px 16px;
 }
 
-/* Remove bullets from ul */
-
-ul{
-    list-style-type: none;
-}
 
 img {
-    width:100%;
+    max-width:100%;
     height:auto;
 }
 
@@ -125,4 +123,52 @@ img {
     right: 0px;
     bottom: 0px;
     left: 0px;
+}
+
+/* Recipe pages design */
+
+.recipe-header{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.description-header{
+    background-color: red;
+}
+
+.ingredient-header{
+    background-color: red;
+}
+
+.steps-header{
+    background-color: red;
+}
+
+.home-link{
+    background-color: black;
+    text-align: center;
+}
+
+.home-link a{
+    color:white;
+}
+
+/* Center Photos */
+#chickenimg{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+#churroimg{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+#zitiimg{
+    display: block;
+    margin: auto;
+    width: 50%;
 }
