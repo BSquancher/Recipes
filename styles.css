@@ -37,4 +37,52 @@
     color: white;
 }
 
+.card-chicken{
+    /* Add shadow to create the "card effect" */
+    box-shadow: 0 4px 0px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
 
+.card-churro{
+    /* Add shadow to create the "card effect" */
+    box-shadow: 0 4px 0px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card-ziti{
+    /* Add shadow to create the "card effect" */
+    box-shadow: 0 4px 0px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card-chicken:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-churro:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-ziti:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+/* 
+Add some padding inside the card container */
+.container-chicken{
+    padding: 2px 16px;
+}
+
+.container-churro{
+    padding: 2px 16px;
+}
+
+.container-ziti{
+    padding: 2px 16px;
+}
+
+/* Remove bullets from ul */
+
+ul{
+    list-style-type: none;
+}
