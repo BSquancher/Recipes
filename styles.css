@@ -6,12 +6,17 @@
     color: black;
     /* Remove bullets from ul */
     list-style-type: none;
+   
+
 }
 
 .recipe-links div{
     padding: 30px;
     font-size: 24px;
     color: black;
+    /* Make the cards Flexbox */
+    display:flex;
+    
 }
 
 
@@ -172,3 +177,15 @@ img {
     margin: auto;
     width: 50%;
 }
+
+/* Fle container for cards */
+.recipe-links .flex-container{
+    height: 250px;
+    flex:1;
+}
+
+/* .card-chicken img {
+    height: 100px;
+    width: auto;
+} */
+
