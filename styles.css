@@ -184,6 +184,9 @@ img {
     flex:1;
 }
 
+
+/* Get images to stay in cards when screen modifies */
+
  .flex-container .card-chicken img {
    object-fit: contain;
    object-position: center center;
@@ -205,3 +208,16 @@ img {
    width: 100%;
 } 
 
+/* Make recipe pages background better */
+
+ .recipe-page p{
+    background-color: beige;
+}
+
+.ingred-list{
+    background-color: beige;
+}
+
+.steps-list{
+    background-color: beige;
+}
