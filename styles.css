@@ -184,8 +184,24 @@ img {
     flex:1;
 }
 
-/* .card-chicken img {
-    height: 100px;
-    width: auto;
-} */
+ .flex-container .card-chicken img {
+   object-fit: contain;
+   object-position: center center;
+   height: 100%;
+   width: 100%;
+} 
+
+.flex-container .card-churro img {
+   object-fit: contain;
+   object-position: center center;
+   height: 100%;
+   width: 100%;
+} 
+
+.flex-container .card-ziti img {
+   object-fit: contain;
+   object-position: center center;
+   height: 100%;
+   width: 100%;
+} 
 
